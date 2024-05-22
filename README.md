@@ -7,7 +7,7 @@ A possible standardized solution to implement DPPs and DTs is the Asset Administ
 
 Please select your role in the circular value chain:
 
-* Component manufacturer (i.e. display panel)
-* Product manufacturer (i.e. LCD monitor)
-* End user (customer)
-* Recycler
+* [Component manufacturer](Componentmanufacturer.md) (i.e. display panel)
+* [Product manufacturer](Productmanufacturer.md) (i.e. LCD monitor)
+* [End user](Customer.md) (customer)
+* [Recycler](Customer.md)
