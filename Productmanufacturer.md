@@ -11,9 +11,13 @@ This DPP was created with standardized templates provided by the IDTA: [Submodel
 
 To create such a DPP, the AASX Package Explorer is the right tool. A detailed tutorial can be found here: [Screencast](https://admin-shell-io.com/screencasts/)
 
-Your product might include other components, that can be described in the DPP. For this, a hierarchical structure referencing other DPPs can be created with the template "Hierarchical structures".
+Your product might include other components, that can be described in the DPP. For this, a hierarchical structure referencing other DPPs can be created with the template "Hierarchical structures". If you received AAS for certain components in your product, reference them with the [SMT Hierarchical Structures](https://github.com/admin-shell-io/submodel-templates/tree/main/published/Hierarchical%20Structures%20enabling%20Bills%20of%20Material/1/0)
+
+If no AAS is available, you can create a component-specific AAS or Submodel in your modeling.
 
 The result will be a file describing your generic product. You can choose to create a file for each manufactured product (each instance) and provide information about the specific instance (serial numbers, manufacturing date).
+
+
 
 ## DPP service 
 After the product is delivered, it will be used by the customer. In some use-cases, it might be important to include usage / maintenance data in the DPP of the product. That means, that the customer could send back data to your DPP.
