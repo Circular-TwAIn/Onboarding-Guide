@@ -4,12 +4,12 @@ As component manufacturer, your components will be part of other components and 
 To incentivize a circular value chain, you might already provide details about material composition, material origins and disassembly instructions. However, this information is probably only available on your website or part of component delivery.
 
 To make your component part of the circular value chain, we propose to provide a DPP with relevant information about the component in the form of AAS.
-You can find an example of a DPP for a Bosch servomotor here: https://market.aas-suite.com/api/Vws/download?id=38
+You can find an example of a DPP for a Bosch servomotor here: [Download](https://market.aas-suite.com/api/Vws/download?id=38)
 
 ## DPP with AAS
-This DPP was created with standardized templates provided by the IDTA: https://industrialdigitaltwin.org/en/content-hub/submodels
+This DPP was created with standardized templates provided by the IDTA: [Submodel Templates](https://industrialdigitaltwin.org/en/content-hub/submodels)
 
-To create such a DPP, the AASX Package Explorer is the right tool. A detailed tutorial can be found here: https://admin-shell-io.com/screencasts/
+To create such a DPP, the AASX Package Explorer is the right tool. A detailed tutorial can be found here: [Screencasts](https://admin-shell-io.com/screencasts/)
 
 The result will be a file describing your generic component. You can choose to create a file for each manufactured component (each instance) and provide information about the specific instance (serial numbers, manufacturing date).
 
