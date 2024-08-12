@@ -53,3 +53,6 @@ Your EDC will be started and automatically share the DPP stated in the propertie
 ```sh
 edc.aas.localAASModelPath=./example/resources/IDTA 02016-1-0 _Template_ControlComponentInstance.aasx
 ```
+
+To share other AAS services or files, you can use the API Postman collection here: [Collection](https://github.com/FraunhoferIOSB/EDC-Extension-for-AAS/tree/main/example/resources)
+This API can also be used in your software stack to create and share new AAS each time a product is manufactured.
