@@ -10,15 +10,15 @@ Each company/customer in a data space is verified by the Identity Provider of th
 If you choose the Eclipse Dataspace Connector as your connector, CircularTwAIn provides an easy-to-use EDC extension to access a DPP with less effort:
 [EDC Extension for AAS](https://github.com/Circular-TwAIn/EDC-Extension-for-AAS)
 
-Download the code and type:
+Download the code and navigate to the example:
 ```sh
 cd /EDC-Extension-for-AAS
-./gradlew clean build
+cd /example
 ```
 
-After that, type:
+After that, use Docker compose and type:
 ```sh
-java -Dedc.fs.config=./example/configurations/consumer.properties -jar ./example/build/libs/dataspace-connector.jar
+docker-compose up
 ``` 
 Your EDC will be started and you can access a DPP by using the included "Automated negotiation" request in the 
 [Postman collection](https://github.com/FraunhoferIOSB/EDC-Extension-for-AAS/blob/main/example/resources/aas_edc_extension.postman_collection.json).
