@@ -28,7 +28,7 @@ For more details, click here: [documentation](https://faaast-service.readthedocs
 
 ## Data space 
 To share this DPP with certified users of a data space, a data space connector like the [Eclipse Dataspace Connector](https://github.com/eclipse-edc/Connector) or [TRUE connector](https://github.com/Engineering-Research-and-Development/true-connector) is used.
-Each company in a data space is certified by the Identity Provider of the data space. The Identity Provider will create a certificate file for your connector to verify you in the data space. If no Identity Provider is available, you can choose to become the Identity Provider by hosting this service: [IdentityHub](https://github.com/eclipse-edc/IdentityHub)
+Each company in a data space is certified by Identity Providers of the data space. The Identity Provider can be a wallet for decentralized identities to verify you in the data space. In this case, hosting this service: [IdentityHub](https://github.com/eclipse-edc/IdentityHub) is necessary. A simpler approach is a central IdentityProvider like Omejdn https://github.com/Fraunhofer-AISEC/omejdn-server. This server will be used to generate tokens with which access is verified. A traditional IdentityProvider can also be hosted with Keycloak, Hydra, etc.
 
 If you choose the Eclipse Dataspace Connector as your connector, CircularTwAIn provides an easy-to-use EDC extension to share your DPP with less effort:
 [EDC Extension for AAS](https://github.com/Circular-TwAIn/EDC-Extension-for-AAS)
