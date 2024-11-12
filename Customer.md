@@ -5,7 +5,7 @@ As customer, you want to access the DPP, for example for more information on the
 ## Access DPP with data space
 The DPPs are created with standardized AAS templates provided by the IDTA: [Submodel templates](https://industrialdigitaltwin.org/en/content-hub/submodels)
 To access those DPP, a data space connector like the [Eclipse Dataspace Connector](https://github.com/eclipse-edc/Connector) or [TRUE connector](https://github.com/Engineering-Research-and-Development/true-connector) is used.
-Each company/customer in a data space is verified by the Identity Provider of the data space. To get access to the data space, request a certificate from the Identity Provider of the data space.
+Each company in a data space is certified by Identity Providers of the data space. The Identity Provider can be a wallet for decentralized identities to verify you in the data space. In this case, hosting this service: [IdentityHub](https://github.com/eclipse-edc/IdentityHub) is necessary. A simpler approach is a central IdentityProvider like Omejdn https://github.com/Fraunhofer-AISEC/omejdn-server. This server will be used to generate tokens with which access is verified. A traditional IdentityProvider can also be hosted with Keycloak, Hydra, etc.
 
 If you choose the Eclipse Dataspace Connector as your connector, CircularTwAIn provides an easy-to-use EDC extension to access a DPP with less effort:
 [EDC Extension for AAS](https://github.com/Circular-TwAIn/EDC-Extension-for-AAS)
