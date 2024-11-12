@@ -33,6 +33,7 @@ Each company in a data space is certified by Identity Providers of the data spac
 If you choose the Eclipse Dataspace Connector as your connector, CircularTwAIn provides an easy-to-use EDC extension to share your DPP with less effort:
 [EDC Extension for AAS](https://github.com/Circular-TwAIn/EDC-Extension-for-AAS)
 
+Manual Setup (see Docker at the bottom)
 Download the code and type:
 ```sh
 cd /EDC-Extension-for-AAS
@@ -47,3 +48,9 @@ and your EDC will automatically share the DPP stated in the properties file:
 ```sh
 edc.aas.localAASModelPath=./example/resources/IDTA 02016-1-0 _Template_ControlComponentInstance.aasx
 ```
+
+There is also a docker-compose demo setup which can be used with
+```sh
+cd /example
+docker-compose up
+``` 
